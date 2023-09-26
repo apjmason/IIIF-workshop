@@ -1,0 +1,99 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://apjmason.github.io/IIIF-workshop/manifests/manifest2.json",
+  "@type" : "sc:Manifest",
+  "label" : "Austin's test manifest",
+  "metadata" : [ {
+    "label" : "Author",
+    "value" : "Austin Mason"
+  } ],
+  "description" : [ {
+    "@value" : "A selection of photos for Austin Mason to learn IIIF",
+    "@language" : "en"
+  } ],
+  "license" : "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "attribution" : "Austin Mason and Norman B. Leventhal Map Center, no known restrictions on use",
+  "sequences" : [ {
+    "@id" : "http://99602f8a-ba80-45b2-92ae-22b6e6f78026",
+    "@type" : "sc:Sequence",
+    "label" : [ {
+      "@value" : "Normal Sequence",
+      "@language" : "en"
+    } ],
+    "viewingHint" : "paged",
+    "canvases" : [ {
+      "@id" : "http://8ee45a35-a287-42bb-98e1-acbd96c23cc4",
+      "@type" : "sc:Canvas",
+      "label" : "Page from S.",
+      "height" : 3024,
+      "width" : 4032,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://be173d04-a567-4803-ade2-8eb32abd951e",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif.archivelab.org/iiif/img-2581_202309/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.archivelab.org/iiif/img-2581_202309",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json" ]
+          },
+          "height" : 3024,
+          "width" : 4032
+        },
+        "on" : "http://8ee45a35-a287-42bb-98e1-acbd96c23cc4"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://3171612b-a824-4a7e-92d8-71d4bebebe5a",
+      "@type" : "sc:Canvas",
+      "label" : "Map of Boston 1769 by William Price",
+      "height" : 6912,
+      "width" : 9424,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://ca5711fa-3dbb-48d2-8c03-be8b6a212f9d",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif.digitalcommonwealth.org/iiif/2/commonwealth:3f462v50z/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.digitalcommonwealth.org/iiif/2/commonwealth:3f462v50z",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "formats" : [ "tif", "jpg", "gif", "png" ],
+              "qualities" : [ "bitonal", "default", "gray", "color" ],
+              "supports" : [ "regionByPx", "sizeByW", "sizeByWhListed", "cors", "regionSquare", "sizeByDistortedWh", "canonicalLinkHeader", "sizeByConfinedWh", "sizeByPct", "jsonldMediaType", "regionByPct", "rotationArbitrary", "sizeByH", "baseUriRedirect", "rotationBy90s", "profileLinkHeader", "sizeByForcedWh", "sizeByWh", "mirroring" ]
+            } ]
+          },
+          "height" : 6912,
+          "width" : 9424
+        },
+        "on" : "http://3171612b-a824-4a7e-92d8-71d4bebebe5a"
+      } ],
+      "related" : ""
+    } ]
+  } ],
+  "structures" : [ {
+    "@id" : "http://example.org/iiif/book1/range/top",
+    "@type" : "sc:Range",
+    "label" : "Table of Content",
+    "viewingHint" : "top",
+    "ranges" : [ "http://example.org/iiif/book1/range/intro", "http://example.org/iiif/book1/range/dedication" ]
+  }, {
+    "@id" : "http://example.org/iiif/book1/range/intro",
+    "@type" : "sc:Range",
+    "label" : "Introduction",
+    "canvases" : [ "http://8ee45a35-a287-42bb-98e1-acbd96c23cc4" ]
+  }, {
+    "@id" : "http://example.org/iiif/book1/range/dedication",
+    "@type" : "sc:Range",
+    "label" : "Dedication",
+    "canvases" : [ "http://3171612b-a824-4a7e-92d8-71d4bebebe5a" ]
+  } ]
+}
