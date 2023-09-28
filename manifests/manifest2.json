@@ -3,6 +3,11 @@
   "@id" : "https://apjmason.github.io/IIIF-workshop/manifests/manifest2.json",
   "@type" : "sc:Manifest",
   "label" : "Austin's test manifest",
+  "service" : {
+    "profile" : "http://iiif.io/api/search/0/search",
+    "@id" : "https://dev.gdmrdigital.com/search-api/1245635613/10544799/1677df72586c38fdba3fd3a434d782f4/search",
+    "@context" : "http://iiif.io/api/search/0/context.json"
+  },
   "metadata" : [ {
     "label" : "Author",
     "value" : "Austin Mason"
@@ -46,7 +51,12 @@
         },
         "on" : "http://8ee45a35-a287-42bb-98e1-acbd96c23cc4"
       } ],
-      "related" : ""
+      "related" : "",
+      "otherContent" : [ {
+        "@type" : "sc:AnnotationList",
+        "@id" : "https://apjmason.github.io/IIIF-workshop/annotations/65fcb609fdd4a3780e0262da7b1f97fd.json",
+        "label" : "Annotations for canvas Page from S."
+      } ]
     }, {
       "@id" : "http://3171612b-a824-4a7e-92d8-71d4bebebe5a",
       "@type" : "sc:Canvas",
@@ -76,7 +86,12 @@
         },
         "on" : "http://3171612b-a824-4a7e-92d8-71d4bebebe5a"
       } ],
-      "related" : ""
+      "related" : "",
+      "otherContent" : [ {
+        "@type" : "sc:AnnotationList",
+        "@id" : "https://apjmason.github.io/IIIF-workshop/annotations/1f93c18fca19329902c192d6ddccb08a.json",
+        "label" : "Annotations for canvas Map of Boston 1769 by William Price"
+      } ]
     } ]
   } ],
   "structures" : [ {
