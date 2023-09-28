@@ -1,6 +1,6 @@
 {
   "@type" : "sc:Layer",
-  "otherContent" : [ "https://apjmason.github.io/IIIF-workshop/annotations/1f93c18fca19329902c192d6ddccb08a.json" ],
+  "otherContent" : [ "https://apjmason.github.io/IIIF-workshop/annotations/1f93c18fca19329902c192d6ddccb08a.json", "https://apjmason.github.io/IIIF-workshop/annotations/65fcb609fdd4a3780e0262da7b1f97fd.json" ],
   "@id" : "https://apjmason.github.io/IIIF-workshop/annotations/collection.json",
   "label" : "All annotations loaded in apjmason/IIIF-workshop project",
   "@context" : "http://iiif.io/api/presentation/2/context.json"
