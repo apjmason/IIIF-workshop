@@ -39,43 +39,6 @@
     } ]
   }, {
     "resource" : [ {
-      "http://dev.llgc.org.uk/sas/full_text" : "The hand indicating the location of the Kings Head &amp; Looking Glass",
-      "@type" : "dctypes:Text",
-      "format" : "text/html",
-      "chars" : "<p>The hand indicating the location of the Kings Head &amp; Looking Glass</p>"
-    }, {
-      "http://dev.llgc.org.uk/sas/full_text" : "hand locator",
-      "@type" : "oa:Tag",
-      "chars" : "hand locator"
-    } ],
-    "@type" : "oa:Annotation",
-    "dcterms:creator" : "https://dev.gdmrdigital.com/user/1245635613/10544799",
-    "motivation" : [ "oa:commenting", "oa:tagging" ],
-    "dcterms:created" : "2023-09-28T11:53:14",
-    "@id" : "https://dev.gdmrdigital.com/annotation/anno/1695901994297",
-    "dcterms:modified" : "2023-09-28T11:53:38",
-    "@context" : "file:/usr/local/tomcat/webapps/ROOT/contexts/iiif-2.0.json",
-    "on" : [ {
-      "within" : {
-        "@type" : "sc:Manifest",
-        "@id" : "https://apjmason.github.io/IIIF-workshop/manifests/manifest2.json"
-      },
-      "@type" : "oa:SpecificResource",
-      "selector" : {
-        "default" : {
-          "@type" : "oa:FragmentSelector",
-          "value" : "xywh=5414,3761,193,123"
-        },
-        "item" : {
-          "@type" : "oa:SvgSelector",
-          "value" : "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M5442.70523,3779.31845c17.853,-10.31296 43.03754,-17.99267 68.34413,-17.9835v0v0c25.30659,0.00918 47.35287,7.19342 68.34413,17.9835c20.99126,10.79008 29.15029,27.23207 28.30907,43.416c-0.84123,16.18394 -10.68272,32.10982 -28.30907,43.416c-17.62634,11.30619 -43.03754,17.99267 -68.34413,17.9835c-25.30659,-0.00918 -50.50857,-6.71401 -68.34413,-17.9835c-17.83556,-11.26948 -28.30471,-27.10361 -28.30907,-43.416c-0.00436,-16.31239 10.45607,-33.10304 28.30907,-43.416z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;annotation&quot;:null,&quot;editable&quot;:true,&quot;deleteIcon&quot;:null,&quot;rotationIcon&quot;:null,&quot;group&quot;:null}\" id=\"ellipse_0b60587d-9c8f-41a6-b450-7be636c84c50\" fill-opacity=\"0.00001\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"5.45455\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
-        },
-        "@type" : "oa:Choice"
-      },
-      "full" : "http://3171612b-a824-4a7e-92d8-71d4bebebe5a"
-    } ]
-  }, {
-    "resource" : [ {
       "http://dev.llgc.org.uk/sas/full_text" : "advertisement",
       "@type" : "oa:Tag",
       "chars" : "advertisement"
@@ -111,7 +74,44 @@
       },
       "full" : "http://3171612b-a824-4a7e-92d8-71d4bebebe5a"
     } ]
+  }, {
+    "resource" : [ {
+      "http://dev.llgc.org.uk/sas/full_text" : "The hand indicating the location of the Kings Head &amp; Looking Glass",
+      "@type" : "dctypes:Text",
+      "format" : "text/html",
+      "chars" : "<p>The hand indicating the location of the Kings Head &amp; Looking Glass</p>"
+    }, {
+      "http://dev.llgc.org.uk/sas/full_text" : "hand locator",
+      "@type" : "oa:Tag",
+      "chars" : "hand locator"
+    } ],
+    "@type" : "oa:Annotation",
+    "dcterms:creator" : "https://dev.gdmrdigital.com/user/1245635613/10544799",
+    "motivation" : [ "oa:commenting", "oa:tagging" ],
+    "dcterms:created" : "2023-09-28T11:53:14",
+    "@id" : "https://dev.gdmrdigital.com/annotation/anno/1695901994297",
+    "dcterms:modified" : "2023-09-28T11:53:38",
+    "@context" : "file:/usr/local/tomcat/webapps/ROOT/contexts/iiif-2.0.json",
+    "on" : [ {
+      "within" : {
+        "@type" : "sc:Manifest",
+        "@id" : "https://apjmason.github.io/IIIF-workshop/manifests/manifest2.json"
+      },
+      "@type" : "oa:SpecificResource",
+      "selector" : {
+        "default" : {
+          "@type" : "oa:FragmentSelector",
+          "value" : "xywh=5414,3761,193,123"
+        },
+        "item" : {
+          "@type" : "oa:SvgSelector",
+          "value" : "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M5442.70523,3779.31845c17.853,-10.31296 43.03754,-17.99267 68.34413,-17.9835v0v0c25.30659,0.00918 47.35287,7.19342 68.34413,17.9835c20.99126,10.79008 29.15029,27.23207 28.30907,43.416c-0.84123,16.18394 -10.68272,32.10982 -28.30907,43.416c-17.62634,11.30619 -43.03754,17.99267 -68.34413,17.9835c-25.30659,-0.00918 -50.50857,-6.71401 -68.34413,-17.9835c-17.83556,-11.26948 -28.30471,-27.10361 -28.30907,-43.416c-0.00436,-16.31239 10.45607,-33.10304 28.30907,-43.416z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;annotation&quot;:null,&quot;editable&quot;:true,&quot;deleteIcon&quot;:null,&quot;rotationIcon&quot;:null,&quot;group&quot;:null}\" id=\"ellipse_0b60587d-9c8f-41a6-b450-7be636c84c50\" fill-opacity=\"0.00001\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"5.45455\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+        },
+        "@type" : "oa:Choice"
+      },
+      "full" : "http://3171612b-a824-4a7e-92d8-71d4bebebe5a"
+    } ]
   } ],
-  "@id" : "https://apjmason.github.io/IIIF-workshop/annotations/1f93c18fca19329902c192d6ddccb08a.json",
+  "@id" : "https://dev.gdmrdigital.com/annotations/1245635613/10544799/1f93c18fca19329902c192d6ddccb08a.json",
   "@context" : "http://iiif.io/api/presentation/2/context.json"
 }
